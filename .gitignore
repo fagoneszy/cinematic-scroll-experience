@@ -1,73 +1,71 @@
-# --- Dependencies ---
+# === SECRETS & CREDENTIALS (NUNCA COMMITAR) ===
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.cert
+*.p12
+*.pfx
+secrets.*
+credentials.*
+service-account.*
+oauth*.json
+token*
+api-key*
+secret*
+
+# === DEPENDÊNCIAS ===
 node_modules/
 .pnp
 .pnp.js
 
-# --- Build output ---
-build/
+# === BUILD ===
 dist/
-storybook-static/
-
-# --- TypeScript ---
+build/
 *.tsbuildinfo
-*.tsbuildinfo.*
 
-# --- Environment & Secrets ---
-.env
-.env.*
-!.env.example
-!.env.template
-
-# --- IDE & Editor ---
+# === IDE / EDITOR ===
 .vscode/
-!.vscode/extensions.json
-!.vscode/settings.json
 .idea/
 *.iml
 *.swp
 *.swo
 *~
-*.sublime-workspace
-*.sublime-project
+*.sublime-*
 .project
 .classpath
 .settings/
 
-# --- OS garbage ---
+# === SISTEMA OPERACIONAL ===
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
 Desktop.ini
+ehthumbs.db
 $RECYCLE.BIN/
 
-# --- Logs & Debug ---
+# === LOGS ===
 *.log
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 pnpm-debug.log*
-lerna-debug.log*
 
-# --- Testing ---
-coverage/
-.nyc_output/
-*.lcov
-
-# --- Caches ---
-.eslintcache
-.stylelintcache
+# === CACHES ===
 .cache/
 .vite/
+.eslintcache
+.stylelintcache
 
-# --- opencode agent artifacts ---
+# === AGENTES / FERRAMENTAS LOCAIS ===
 .opencode/
 
-# --- Misc temp ---
+# === TESTES ===
+coverage/
+.nyc_output/
+
+# === TEMPORÁRIOS ===
 .tmp/
 .temp/
-*.pem
 *.local
+*.bak
