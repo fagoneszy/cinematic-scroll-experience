@@ -1,1 +1,1 @@
-/// <reference types="vite/client" />
+//tem nada aqui nao curioso
