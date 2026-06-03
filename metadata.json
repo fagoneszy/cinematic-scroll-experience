@@ -1,0 +1,6 @@
+{
+  "name": "Cinematic Scroll Experience",
+  "description": "A premium minimalist cinematic storytelling website showcasing scroll-driven 3D-like parallax transitions, viewport circle reveals, zoom-scaling environments, and responsive technical typography.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
